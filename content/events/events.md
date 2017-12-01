@@ -1,6 +1,7 @@
 +++
 date = "2017-02-07"
 title = "Events"
+hidden = true
 +++
 
 Here’s a list of the events that will be going on during BSidesROC:
