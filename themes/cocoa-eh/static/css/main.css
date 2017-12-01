@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @font-face {
   font-family: 'Euro';
-  src: url('/fonts/eurcntrc.ttf');
+  src: url('/fonts/VideoPhreak.ttf');
 }
 @font-face {
   font-family: 'Nexa Bold';
@@ -18,7 +18,7 @@
   color: #fff !important;
 }
 .accent {
-  color: #ff4729 !important;
+  color: #ff29f5 !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -74,7 +74,8 @@ body {
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
   background-color: #000216;
-  background: url(/img/pattern.png);
+  background: url(/img/synth.jpg);
+  background-attachment: fixed;
   position: relative;
 }
 @media (min-width: 600px) {
@@ -92,7 +93,7 @@ body {
   text-rendering: geometricPrecision !important;
 }
 .background-character {
-  background: url(/img/soviet.png) no-repeat;
+  //background: url(/img/hackerman.png) no-repeat;
   width: 500px;
   height: 700px;
   background-size: contain;
@@ -117,6 +118,7 @@ section {
   -ms-align-items: center;
   align-items: center;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .container {
   display: -webkit-flex;
@@ -226,7 +228,7 @@ section.header .name h1, section.header .name h2 {
   display: block;
 }
 section.header .name h1 {
-  color: #ff4729;
+  color: #ff29f5;
   position: relative;
   top: -3px;
 }
@@ -276,7 +278,7 @@ section.subnav nav ul li {
 }
 section.header nav ul li:hover,
 section.subnav nav ul li:hover {
-  color: #ff4729;
+  color: #ff29f5;
 }
 section.subnav nav {
   top: 0;
@@ -413,7 +415,7 @@ section.subnav nav ul {
   }
   section.header nav ul li:hover,
   section.subnav nav ul li:hover {
-    color: #ff4729;
+    color: #ff29f5;
   }
 }
 section.icons .container {
@@ -723,7 +725,7 @@ section.main .container .content .post-item {
   }
 }
 a {
-  color: #ff4729;
+  color: #ff29f5;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -835,7 +837,7 @@ section.main .content .markdown pre code {
   font-size: 0.9rem;
 }
 section.main .content .markdown a code {
-  color: #ff4729 !important;
+  color: #ff29f5 !important;
 }
 section.main .content .markdown a code:hover {
   text-decoration: underline;
