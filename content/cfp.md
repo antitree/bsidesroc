@@ -14,8 +14,8 @@ hidden = false
 
 #### Important Dates
 
-- CFP Closes: TBA
-- CFP Responses Sent: TBA
+- CFP Closes: 3/13/2018
+- CFP Responses Sent: 3/31/2018
 
 #### CFP Guideline
 
