@@ -1,6 +1,7 @@
 +++
 date = "2017-02-16"
 title = "Keynote"
+draft = true
 +++
 <div style="float: right">
 ![Presentations](/img/icons/presentations.png)
@@ -11,8 +12,4 @@ infosec topics, to hacker themes alike.
 
 ## Keynote
 
-We're pleased to announce this year's keynote will be int0x80!
-
-![Int0x80](/img/events/int80.jpg)
-int0x80 is the rapper in Dual Core. Drink all the booze, Hack all the things!
-
+We will have more information on our keynote soon!

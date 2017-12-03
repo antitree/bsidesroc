@@ -1,6 +1,7 @@
 +++
 date = "2017-02-07"
 title = "Training Day"
+draft = true
 +++
 
 ### <div style="float:right">![Training Day](/img/icons/training.png)</div>

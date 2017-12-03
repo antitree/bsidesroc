@@ -1,6 +1,7 @@
 +++
 date = "2017-02-16"
 title = "Key-Signing-Party"
+draft = true
 +++
 
 Join us for another installment of the BSidesROC Key-Signing Party.

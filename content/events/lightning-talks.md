@@ -1,6 +1,7 @@
 +++
 date = "2017-02-07"
 title = "Lightning Talks"
+draft = true
 +++
 <div style="float: right">
 ![Lightning Talks](/img/icons/lightningtalks.png)

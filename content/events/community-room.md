@@ -1,6 +1,7 @@
 +++
 date = "2017-02-07"
 title = "Community Room"
+draft = true
 +++
 
 <div style="float: right">
