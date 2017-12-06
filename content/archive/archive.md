@@ -9,5 +9,5 @@ draft = false
 * [2015](/archive/2015)
 * [2014](/archive/2014)
 * [2013](/archive/2013)
-* [2012](/archive/2012)
+* 2012
 * 2011
