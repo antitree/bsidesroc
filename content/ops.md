@@ -12,9 +12,13 @@ the Business as outlined in the Bylaws. Directors historically have the most res
 end up making a lot of the decisions for the organization. Ops are the sole owners of their events
 and, in most cases, override any opinions of the directors when it comes to the event that they Op.
 
+1. [Overview](#1-overview)....................................
+2. [History](#2-history)......................................
+3. [Design](#3-design)........................................
+4. [References](#4-references)................................
 
 
-## 1. Overview
+## 1. Overview 
 
 >Security B-Sides Rochester is a non-profit corporation and shall be operated exclusively for educational and charitable purposes within the meaning of Section 501 (c)(3) of the Internal Revenue Code of 1986, or the corresponding section of any future Federal tax code.
 Security B-Sides Rochester’s purpose is to educate the public-at-large on issues related to the hacking community, information security industry, information technology industry, and other areas of technology by facilitating events that are accessible to the public. These events are full day conferences that could include professional training, presentations from industry experts, hacking competitions, games, and other components. 
@@ -60,41 +64,44 @@ that were taking over a community with enterprise sales departments. The result
 was an inclusive conference designed to share technical knowledge, help advance
 careers, and support a community of hackers and professionals alike. 
 
-2010: The first conference held at the historic Auditorium Center and masonic temple
+2011: The first conference held at the historic Auditorium Center and masonic temple
 on Main St. Rochester.  This was selected by asking a bartender at Lux Lounge and 
 would be the home for the con for the next few years. The first year yielded (less than?) a 100 attendees but
 served as the foundation for each subsequent year. Pizza was served but without knowing
 how much to order, more than 20 sheet pizzas were thrown away or giving to passing
 homeless people. 
 
-2011: TKTK
-
-2012: Another year at the Auditirum Center now with more AV equipment and expanding
-into the "Convent" are at the front of the room. The networking and power requirements
+2012: Another year at the Auditorium Center now with more AV equipment and expanding
+into the "Convent" or Tea Room at the front of the building. The networking and power requirements
 take at least a day to setup and the main space is used for the hangout and CTF. It
 keep the hacker feel with black table covers on every table. There was no keynote. 
 
-2013: The last year at the Auditorium Center got rid of Capture the Pile and replaced
+[2013](/archive/2013): The last year at the Auditorium Center got rid of Capture the Pile and replaced
 it with Hacker Battleship. During the conference, hacker battleship scoreboard was completely
-owned and needed to be cancelled. 
+owned and needed to be cancelled. Two tracks ran and many of the presenters were organizers
+or friends of organizers. This was the first and last time we 3D printed 189 badges
+thanks to Interlock Rochester. 
 
-2014: The first year at the german house. This was also the first year of food trucks
-which were a success and an addition to future years. The keynote was David Kennedy. 
+[2014](/archive/2014): The first year at the german house. This was also the first year of food trucks
+which were a success and an addition to future years. The keynote was David Kennedy. This marks
+the first year of expanding the various events during the conference to include key signing
+a privacy workshop, a beer networking event, and other secret events during the con. 
 
-2015: The German House was again the home for BSidesROC but it was under new ownership.
+[2015](/archive/2015): The German House was again the home for BSidesROC but it was under new ownership.
 This was the first attempt at having training during the conference while the con was
 going on with Tor and SDR classes happening. The tracks were re-arranged this year with
 a track in the restaurant and a track in the basement. This was also the year that
 the owners of the German House screwed the organization costing them thousands and the
 last time anyone went there. 
 
-2016: The first year at RIT and when the attendee numbers jumped again. The conference
+[2016](/archive/2016): The first year at RIT and when the attendee numbers jumped again. The conference
 increased the number of students making up almost 50% of the attendees. This was
 the first year of the failed Resumelee program. This was also the year the CTF raised
 the bar with prizes for the winners and more complex and difficult challenges. The
-keynote was the EFF lawyer TKTK. 
+keynote was the EFF lawyer Nate Cardozo. Also to note, we had competiting sponsors
+of energy drinks -- Club Mate and Bawls.  
 
-2017: Again at RIT's GCCIS building, the conference went with a Russian Propaganda
+[2017](/archive/2017): Again at RIT's GCCIS building, the conference went with a Russian Propaganda
 themed posters as this was fun as topical at the time. 3 tracks and more than 400
 attendees filled up the conference. Int80 from Dual Core was the keynote. The 
 conference has a more formal feel while trying to keep its original roots as a 
