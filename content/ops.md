@@ -54,11 +54,54 @@ Speakers, Trainers, Friends, family, etc. that support  us through the event are
 considered VIPs. They can be invited to parties and get swag and free entry into
 the conference if desired. 
 
-## History 
-(TKTK)
+## 2. History 
+BSidesROC was founded in TKTK as a reaction to the industry of "hacker" "conferences"
+that were taking over a community with enterprise sales departments. The result
+was an inclusive conference designed to share technical knowledge, help advance
+careers, and support a community of hackers and professionals alike. 
+
+2010: The first conference held at the historic Auditorium Center and masonic temple
+on Main St. Rochester.  This was selected by asking a bartender at Lux Lounge and 
+would be the home for the con for the next few years. The first year yielded (less than?) a 100 attendees but
+served as the foundation for each subsequent year. Pizza was served but without knowing
+how much to order, more than 20 sheet pizzas were thrown away or giving to passing
+homeless people. 
+
+2011: TKTK
+
+2012: Another year at the Auditirum Center now with more AV equipment and expanding
+into the "Convent" are at the front of the room. The networking and power requirements
+take at least a day to setup and the main space is used for the hangout and CTF. It
+keep the hacker feel with black table covers on every table. There was no keynote. 
+
+2013: The last year at the Auditorium Center got rid of Capture the Pile and replaced
+it with Hacker Battleship. During the conference, hacker battleship scoreboard was completely
+owned and needed to be cancelled. 
+
+2014: The first year at the german house. This was also the first year of food trucks
+which were a success and an addition to future years. The keynote was David Kennedy. 
+
+2015: The German House was again the home for BSidesROC but it was under new ownership.
+This was the first attempt at having training during the conference while the con was
+going on with Tor and SDR classes happening. The tracks were re-arranged this year with
+a track in the restaurant and a track in the basement. This was also the year that
+the owners of the German House screwed the organization costing them thousands and the
+last time anyone went there. 
+
+2016: The first year at RIT and when the attendee numbers jumped again. The conference
+increased the number of students making up almost 50% of the attendees. This was
+the first year of the failed Resumelee program. This was also the year the CTF raised
+the bar with prizes for the winners and more complex and difficult challenges. The
+keynote was the EFF lawyer TKTK. 
+
+2017: Again at RIT's GCCIS building, the conference went with a Russian Propaganda
+themed posters as this was fun as topical at the time. 3 tracks and more than 400
+attendees filled up the conference. Int80 from Dual Core was the keynote. The 
+conference has a more formal feel while trying to keep its original roots as a 
+grungy hacker con. 
 
 
-## Design 
+## 3. Design 
 ### Finances
 Finances are handled in whole by the Financials Op who historically has been there 
 Treasurer of the organization. They're responsible for coming up with a budget and
@@ -119,7 +162,6 @@ Our social media consists of a bunch of announcements in various platforms. The 
 #### Tickets
 We manage tickets for training day, the conference, and the after party, with EventBrite.  Tickets have been $10 lately with discounts to certain groups like sponsors.
 
-
 ### Events/Op Positions
 The following have been events BSidesROC has organized.
 
@@ -172,5 +214,5 @@ The op for this is in charge of making sure sponsors are happy
 #### Parties
 We throw two parties for BSidesROC: Speaker Party, After Party. Both are designed to show appreciation for VIPs, volunteers, and organizers. Food is served for both. The speaker party is in Friday night before the event and after party on Saturday. The after after party is not officially condoned.
 
-## References
+## 4. References
 ```
