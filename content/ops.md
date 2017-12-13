@@ -222,3 +222,15 @@ The op for this is in charge of making sure sponsors are happy
 We throw two parties for BSidesROC: Speaker Party, After Party. Both are designed to show appreciation for VIPs, volunteers, and organizers. Food is served for both. The speaker party is in Friday night before the event and after party on Saturday. The after after party is not officially condoned.
 
 ## 4. References
+### 2018 Dates
+** 2/13:**
+* Tickets Open
+* Training Open
+
+**3/13:**
+* CFP Closes
+* Gold Sponsor Cut Off
+* [Internal] CTF Milestone 90%
+
+### Survey and Demographic Data
+TK
