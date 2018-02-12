@@ -1,11 +1,7 @@
 +++
 date = "2017-02-07"
 title = "Events"
-<<<<<<< HEAD
 draft = true
-=======
-hidden = true
->>>>>>> hiding unnecessary things right now
 +++
 
 Here’s a list of the events that will be going on during BSidesROC:
