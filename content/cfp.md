@@ -4,7 +4,7 @@ title = "CFP"
 hidden = false
 +++
 
-### The Call For Presentations and Trainers for BSidesROC 2017 is now open!
+### The Call For Presentations and Trainers for BSidesROC 2018 is now open!
 
 Use the link below to submit an idea for Training Day, a 50 minute talk, or a 20 minute talk. 
 
