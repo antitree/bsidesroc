@@ -13,8 +13,7 @@ We help divide up the workload by making “Op” positions for the various face
 
 JustBill brings expert level knowledge in the latest enterprise technology to the group. He is a “Manager” of IT for the largest market research company in the world. He no longer needs to actually know things but make sure you have your management slide ready for him just in case he cares. He has a background in Ham radio, and enjoys hacking all things RF related. He denies that he is a hacker, but if you talk to him for more than a minute you’ll see he’s wrong or just confused.
 
-- Resumelee Op
-
+- Non-profit Op
 
 **Joe Testa (Director)**
 
@@ -23,6 +22,8 @@ Mr. Testa is a man of many names – friends call him Cowboy Joe, or the SeCowbo
 - CTF Op
 - Sponsors Op
 - Business Op
+- Speakers Op
+- Resume Op
 
 **Mark "AntiTree" Manning (Director)**
 
@@ -32,4 +33,5 @@ AntiTree, was one of the original founders of the first hacker conference in Roc
 - Shirts Op
 - Signage Op
 - Keynote Op
-- Speakers Op
+
+
