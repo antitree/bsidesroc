@@ -1,6 +1,6 @@
 +++
 author = "BSidesROC"
-date = "2017-02-07"
+date = "2018-01-05"
 title = "Sponsor Announcement - RIT Department of Computing Security (CSEC)"
 +++
 
