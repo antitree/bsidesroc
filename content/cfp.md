@@ -8,7 +8,7 @@ hidden = false
 
 Use the link below to submit an idea for Training Day, a 50 minute talk, or a 20 minute talk. 
 
-### [Submit CFP](https://docs.google.com/forms/d/e/1FAIpQLSdNiB0jL6r56PSlpHYZ7_jiqib59bWHBa9YpnOvG9660JDA7A/viewform?usp=sf_link)
+### <a onclick="fbq('track', 'CompleteRegistration');" href="https://docs.google.com/forms/d/e/1FAIpQLSdNiB0jL6r56PSlpHYZ7_jiqib59bWHBa9YpnOvG9660JDA7A/viewform?usp=sf_link">Submit CFP</a>
 
 ### 
 
