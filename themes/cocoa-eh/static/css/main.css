@@ -493,6 +493,7 @@ section.sponsors h3 {
 section.sponsors img {
   margin-left:20px;
   width: 230px;
+  vertical-align: middle;
 }
 section.main .container {
   -webkit-align-items: center;
