@@ -16,6 +16,6 @@ If you already know what you want and are ready to check out, you can click the 
 
 ## Free tickets for resume submissions
 
-Are you looking for a job?  In that case, submit a resume to *resumes at-sign bsidesroc dott comm*, and you'll get a discount code that gives you a free conference ticket!  Resumes will be distributed to all Gold-level sponsors, and several of them are actively recruiting!
+Are you looking for a job?  In that case, you can get a *free ticket* by reserving an "Entry (Resume Program)" ticket type, then submitting a resume by April 9th to *resumes at-sign bsidesroc d0tt c0mm*.  Resumes will be distributed to all Gold-level sponsors, and several of them are actively recruiting!
 
 Submit your resume soon, as free tickets are limited.
