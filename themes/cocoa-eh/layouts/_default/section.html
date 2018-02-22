@@ -9,11 +9,11 @@
             <nav id="subnav-nav">
                 ┗
                 <ul>
-                    {{ range .Data.Pages.ByPublishDate }}
-                        {{ if ne .Title $globalTitle }}
-                            {{ partial "li.html" . }}
-                        {{ end }}
-                    {{ end }}
+                  {{ range .Data.Pages.ByPublishDate }}
+                      {{ if ne .Title $globalTitle }}
+                          {{ partial "li.html" . }}
+                      {{ end }}
+                  {{ end }}
                 </ul>
             </nav>
         </div>

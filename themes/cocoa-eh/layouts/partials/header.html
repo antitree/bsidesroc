@@ -5,32 +5,31 @@
 
 <body lang="{{ .Site.Params.lang }}">
 
-
-<section class="header header-home"> 
+<section class="header header-home">
     <div class="container">
         <a href="{{ .Site.BaseURL }}"><img class="logo" src="{{ .Site.Params.logofile | absURL }}" /></a>
         <div class="content">
-            <a href="{{ .Site.BaseURL }}">
+            <a href="/">
                 <div class="name">
-		    <h2><!-- // -->{{ .Site.Params.description }}</h2>
+		                <h2>{{ .Site.Params.description }}</h2>
                     <h1>{{ .Site.Title }}</h1>
                 </div>
             </a>
             <nav>
                 <ul>
                     {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
-                        <a href="{{ .Site.BaseURL }}blog/"><li>Blog</li></a>
+                        <a href="/blog/"><li>Blog</li></a>
                     {{ end }}
                     {{ range .Site.Sections }}
                         {{ range first 1 (where .Pages "Section" "ne" "")}}
                             {{ if ne .Section "blog"}}
-                            <a href="{{ .Section | urlize }}"><li>{{ .Section }}</li></a>
+                            <a href="/{{ .Section | urlize }}"><li>{{ .Section }}</li></a>
                             {{ end }}
                         {{ end }}
                     {{ end }}
                     {{ range where .Site.RegularPages "Section" ""}}
                         {{ if and (ne .Title "Home") (ne .Params.hidden true)}}
-                            <a href="{{ .Permalink }}"><li>{{ .Title }}</li></a>
+                            <a href="{{ .URL }}"><li>{{ .Title }}</li></a>
                         {{ end }}
                     {{ end }}
                 </ul>
@@ -53,7 +52,7 @@
                 <i class="icon larger ion-social-github"></i>
             </a>
         {{ end }}
-        
+
         {{ if .Site.Params.twitter }}
             <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
                 <i class="icon larger ion-social-twitter"></i>

@@ -23,7 +23,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/vladionescu/heroku-buildpack-hugo.git"
+      "url": "https://github.com/chorn/heroku-buildpack-hugo.git"
     }
   ]
 }
