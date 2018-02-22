@@ -931,3 +931,10 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #424242;
 }
+section.main .content .markdown img.sponsor-logo {
+  float: left;
+  margin-right: 15px;
+}
+section.main .content .markdown p.sponsor-description {
+  margin-bottom: 50px;
+}

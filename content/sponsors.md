@@ -1,25 +1,21 @@
 +++
-date = "2017-02-02"
+date = "2018-02-21"
 title = "Sponsors"
-hidden = true
 +++
 
 If you're interested in sponsoring this year's BSidesROC event, please visit [this page](/sponsorship-info/) for more information.
 
-## Gold
+## Gold Level
 
-[![Secure Network Technologies](/img/sponsors/secure-network-technologies.png)](https://www.securenetworkinc.com/)
+<p class="sponsor-description"><a href="https://www.securenetworkinc.com/"><img class="sponsor-logo" src="/img/sponsors/secure-network-technologies.png" /></a><strong>Secure Network Technologies, Inc.</strong> is a full service information security firm dedicated to providing superior security services and delivering actionable, real world results. Secure Network staff understands what it takes to build a security program that fits the unique needs of any business. That’s why all of our services are customized to fit the requirements of any risk management situation.</p>
 
-**Secure Network Technologies, Inc.** is a full service information security firm dedicated to providing superior security services and delivering actionable, real world results. Secure Network staff understands what it takes to build a security program that fits the unique needs of any business. That’s why all of our services are customized to fit the requirements of any risk management situation.
+<p class="sponsor-description"><a href="https://www.endgame.com/"><img class="sponsor-logo" src="/img/sponsors/endgame.png" /></a><strong>Endgame</strong> offers a managed endpoint protection platform, designed to monitor and proactively respond to emergent threats.</p>
 
-[![CSEC](/img/sponsors/csec.jpg)](https://www.rit.edu/gccis/computingsecurity/)
+<p class="sponsor-description"><a href="https://www.rsa.com/"><img class="sponsor-logo" src="/img/sponsors/rsa.jpg" /></a><strong>RSA</strong> provides of a wide array of security services and products, including incident response, endpoint threat detection, network monitoring, and forensics.</p>
 
-**Rochester Institute of Technology  
-Golisano College of Computing and Information Sciences  
-Department of Computing Security (CSec)**
+<p class="sponsor-description"><a href="https://www.rit.edu/gccis/computingsecurity/"><img class="sponsor-logo" src="/img/sponsors/csec.jpg" /></a>The Rochester Institute of Technology, Golisano College of Computing and Information Sciences, Department of Computing Security (CSec) provides an environment where students can develop an in-depth knowledge of computing security, while working on the cutting-edge of one of the fastest growing computing disciplines. Students receive a strong foundation in the supporting disciplines of programming, multimedia, and database systems. After building core competencies, students design their area of specialization by selecting five courses from over a dozen advance study courses offered in the areas of computing security.</p>
 
-CSec provides an environment where students can develop an in-depth knowledge of computing security, while working on the cutting-edge of one of the fastest growing computing disciplines. Students receive a strong foundation in the supporting disciplines of programming, multimedia, and database systems. After building core competencies, students design their area of specialization by selecting five courses from over a dozen advance study courses offered in the areas of computing security.
-
+<!--
 [![Senrio](/img/sponsors/senrio.jpg)](http://senr.io/)
 
 **Senrio**
@@ -45,10 +41,10 @@ F5 helps organizations seamlessly scale cloud, data center, and software-defined
 **NCC Group**
 
 NCC Group is a trusted security firm with an unrivaled suite of services. More than 2000 employees in 35 offices around the world provide their expert skills to over 15,000 clients.
-
+-->
 ---
-## Silver
-
+## Silver Level
+<!--
 [![ANYCon](/img/sponsors/anycon.jpg)](http://www.anycon.info/)
 
 **ANYCon**
@@ -60,18 +56,18 @@ NCC Group is a trusted security firm with an unrivaled suite of services. More t
 [![Positron Security](/img/sponsors/positron-security.png)](http://www.positronsecurity.com/services/)
 
 **Positron Security**
-
+-->
 ---
-## Bronze
-
+## Bronze Level
+<!--
 [![Carve Systems](/img/sponsors/carve-systems.png)](https://www.carvesystems.com/)
 
 [![iSECURE](/img/sponsors/isecure.png)](https://isecurenet.net/)
-
+-->
 
 ---
 ## In-Kind
-
+<!--
 [![Hackerboxes](/img/sponsors/hackerboxes.png)](http://www.hackerboxes.com/)
 [![WITR](/img/sponsors/witr_logo.png)](https://witr.rit.edu/)
 [![BitCraze](/img/sponsors/bitcraze.png)](https://store.bitcraze.io/collections/kits/products/crazyradio-pa)
@@ -85,7 +81,7 @@ NCC Group is a trusted security firm with an unrivaled suite of services. More t
 [![Team Fractal Alligator](/img/sponsors/teamfractalalligator.png)](http://www.hacknet-os.com/)
 
 [![Surprise Attack Games](/img/sponsors/surpriseattackgames.png)](http://www.surpriseattackgames.com)
-
+-->
 
 ---
 ## Community
