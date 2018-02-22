@@ -13,10 +13,10 @@ The infographics below summarize our attendees:
 
 ### 2017 Attendee Demographics
 
-[![](/img/2017_block_0_thumb.png)](/img/2017_block_0_sm.png)
-[![](/img/2017_block_1_thumb.png)](/img/2017_block_1_sm.png)
-[![](/img/2017_block_2_thumb.png)](/img/2017_block_2_sm.png)
-[![](/img/2017_block_3_thumb.png)](/img/2017_block_3_sm.png)
+[![](/img/2017_block_0_thumb.png)](/img/2017_block_1_sm.png)
+[![](/img/2017_block_1_thumb.png)](/img/2017_block_2_sm.png)
+[![](/img/2017_block_2_thumb.png)](/img/2017_block_3_sm.png)
+[![](/img/2017_block_3_thumb.png)](/img/2017_block_4_sm.png)
 
 ### 2016 Attendee Demographics
 
