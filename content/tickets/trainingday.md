@@ -10,7 +10,7 @@ Location: Training will be hosted by RIT's B. Thomas Golisano College of Computi
 
 Tickets go on sale March 2nd at 12:00PM ET. You can click the link below to purchase tickets at that time. 
 
-<a href="https://www.eventbrite.com/e/bsides-rochester-2018-training-day-tickets-43132000976?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=43132000976" alt="Eventbrite - BSides Rochester 2018 Training Day" /></a>
+### <div align="center"><a href="https://www.eventbrite.com/e/bsides-rochester-2018-training-day-tickets-43132000976?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=43132000976" alt="Eventbrite - BSides Rochester 2018 Training Day" /></a></div>
 
 
 # Web Application Security Hands-On (morning)
