@@ -555,6 +555,9 @@ section.main .content .title-container .initials a:hover {
   margin-bottom: 16px;
   text-align: left;
 }
+section.subnav {
+  padding-top: 32px;
+}
 section.subnav .page-heading {
   margin: 0;
   line-height: 1em;
