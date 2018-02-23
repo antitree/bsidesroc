@@ -22,7 +22,7 @@ Time: 8:00am to 12:00pm
 
 Requirements: A laptop with VirtualBox installed and functioning is required. The VM will require 2GB of memory.
 
-*Price: $80 ($40 for students)*
+**Price: $80 ($40 for students)**
 
 
 
@@ -35,7 +35,7 @@ Time: 1:00pm to 5:00pm
 
 Requirements: TBD
 
-*Price: $40*
+**Price: $40**
 
 
 
@@ -48,7 +48,7 @@ Time: 8:00am to 12:00pm
 
 Requirements: Bring: 1) a machine with Kali Linux installed (can be a VM) and 2) a packet-injection capable wireless card, such as the Alfa AWUS036h.  Attendees are also encouraged to bring any Wi-Fi-related equipment that they would like to show off!  No prior knowledge is needed, but ideally you should be familiar with setting up your wireless card in monitor mode to minimize setup time during the workshop.
 
-*Price: $10*
+**Price: $10**
 
 
 
@@ -65,7 +65,7 @@ Time: 1:00pm to 5:00pm
 
 Requirements: Laptop with web browser and SSH client.  Familiarity with Linux command line is a plus.  Attendees are also encouraged to bring log files to use as data sources as part of the class so that you will be working with data that is meaningful to you. Sample log files will be provided as well.
 
-*Price: $10*
+**Price: $10**
 
 
 
