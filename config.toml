@@ -1,4 +1,4 @@
-baseurl = "https://www.bsidesroc.com/"
+baseurl = "/"
 theme = "cocoa-eh"
 builddrafts = false
 canonifyurls = false

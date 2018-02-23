@@ -60,7 +60,7 @@ as the EFF or maybe your favorite local B-Sides conference. :)
 
 #### Who Is The Audience?
 
-When considering a submission for BSidesROC, it may be helpful to consider who our attendees have been in the past. Check out our [/about](/about) page that gives you some details about our
+When considering a submission for BSidesROC, it may be helpful to consider who our attendees have been in the past. Check out our [about](/about) page that gives you some details about our
 demographics. We have a mix of students and professionals but in general, management/sales slides
 do not go over well in this crowd.  
 
