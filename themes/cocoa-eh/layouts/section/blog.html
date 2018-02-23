@@ -2,11 +2,14 @@
 <section class="main">
     <div class="container">
         <div class="content">
-            <div class="page-heading">Blog</div>
+            {{ range first 1 .Data.Pages }}
+                {{ partial "blog-content.html" . }}
+            {{ end }}
+            <hr/>
             <ul>
                 {{ range .Data.Pages.GroupByDate "Jan, 2006" "desc"}}
                     <li class="groupby">{{ .Key }}</li>
-                    {{ range .Pages.ByPublishDate }}
+                    {{ range .Pages.ByPublishDate.Reverse }}
                         {{ partial "li.html" . }}
                     {{ end }}
                 {{ end }}

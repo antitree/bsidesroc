@@ -750,6 +750,9 @@ img.profile {
 .page-heading a {
   color: #eee;
 }
+section.main .content hr {
+  margin: 32px 0;
+}
 section.main .content .markdown h1,
 section.main .content .markdown h2,
 section.main .content .markdown h3,

@@ -1,7 +1,9 @@
 <div class="page-heading">
+    <a href="{{ .Permalink }}">
 {{ if .Params.heading }}
     {{ .Params.heading }}
 {{ else }}
     {{ .Title }}
 {{ end }}
+    </a>
 </div>
