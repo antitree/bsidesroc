@@ -35,7 +35,7 @@ Time: 1:00pm to 5:00pm
 
 Requirements: TBD
 
-**Price: $40**
+**Price: TBD**
 
 
 
