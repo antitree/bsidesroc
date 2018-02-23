@@ -12,8 +12,6 @@ If you already know what you want and are ready to check out, you can click the 
 
 ### <div align="center">Check back soon for training day tickets.</div>
 
-### <div align="center">Check back soon for training day tickets.</div>
-
 ## Free tickets for resume submissions
 
 Are you looking for a job?  In that case, you can get a *free ticket* by reserving an "Entry (Resume Program)" ticket type, then submitting a resume by April 9th to *resumes at-sign bsidesroc d0tt c0mm*.  Resumes will be distributed to all Gold-level sponsors, and several of them are actively recruiting!
