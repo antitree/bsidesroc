@@ -12,8 +12,7 @@ If you already know what you want and are ready to check out, you can click the 
 
 ### <div align="center">Check back soon for training day tickets.</div>
 
-Keep an eye on this page or on our [Twitter](https://twitter.com/bsidesroc) for
-an announcement when we go live!
+### <div align="center">Check back soon for training day tickets.</div>
 
 ## Free tickets for resume submissions
 
