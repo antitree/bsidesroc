@@ -6,7 +6,9 @@ draft = false
 
 BSidesROC Training Day is a complementary event the day before the main conference. We've set up a full day of training opportunities for students in various subjects. 
 
-Tickets go on sale March 2nd at 12:00PM ET. 
+Location: Training will be hosted by RIT's B. Thomas Golisano College of Computing & Information Sciences. You'll be notified which room your class is in after you purchase the ticket. Follow the signs on campus to get to your room. See the EventBrite page in the link below for more detailed information. 
+
+Tickets go on sale March 2nd at 12:00PM ET. You can click the link below to purchase tickets at that time. 
 
 <a href="https://www.eventbrite.com/e/bsides-rochester-2018-training-day-tickets-43132000976?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=43132000976" alt="Eventbrite - BSides Rochester 2018 Training Day" /></a>
 
@@ -37,7 +39,7 @@ Price: TODO
 
 
 
-Wi-Fi Hacking (morning)
+# Wi-Fi Hacking (morning)
 Trainer: Mark El-Khoury, NCC Group
 
 Description: Attendees will start by exploring the absolute basics of Wi-Fi (What are control frames, management frames, etc.?) and will leave the training room armed with all the knowledge they will ever need to identify the wireless attack surface and conduct a Wi-Fi security assessment. The training will cover WEP, WPA2-Personal, WPA2-Enterprise, WPS, the most recent developments in Wi-Fi such as KRACK, and will include hands-on labs. The training will also cover direct attacks against wireless clients and access points, such as router and firmware vulnerabilities, rogue access points, and denial-of-service attacks.
@@ -50,7 +52,7 @@ Price: $10
 
 
 
-SOS (Save Our Splunk!) (afternoon)
+# SOS (Save Our Splunk!) (afternoon)
 Trainer: Tom Kopchak, Hurricane Labs
 
 Description: 
@@ -73,4 +75,16 @@ Price: $10
 ### What are my parking options?
 
 You will need to get a parking pass from the Welcome Center.  You can then park in Lot J in front of the B. Thomas Golisano College of Computing.  No parking pass will be necessary for the event on Saturday.
+
+### Will classes sell out?
+
+Most likely. We've selected these classes because of how popular they will be and the low cost so they are likely to sell out early. Mark your calendars. 
+
+### What is your refund policy?
+
+You can get a full refund if you give us notification within 8 days. 
+
+### I have a specific question, who do I email?
+
+If you have a question about which tickets to buy, email info at bsidesroc.com. 
 
