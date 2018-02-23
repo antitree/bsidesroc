@@ -4,7 +4,7 @@ title = "Training Day Tickets"
 draft = false
 +++
 
-BSidesROC Training Day is a complementary event the day before the main conference. We've set up a full day of training opportunities for students in various subjects. 
+BSidesROC Training Day is a all day event on April 13th, independent of the main conference. We've set up a full day of training opportunities for students in various subjects and hosted at RIT. 
 
 Tickets go on sale March 2nd at 12:00PM ET. In the meantime, click on the link below to learn about classes, prices, and location. 
 
