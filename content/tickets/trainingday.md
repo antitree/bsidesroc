@@ -33,9 +33,9 @@ Description: Are you new to CTFs?  This course will introduce common CTF vectors
 
 Time: 1:00pm to 5:00pm 
 
-Requirements: TODO
+Requirements: TBD
 
-Price: TODO
+Price: $40
 
 
 
