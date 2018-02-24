@@ -7,7 +7,7 @@
         <div class="content">
             {{ partial "page-heading.html" . }}
             <nav id="subnav-nav">
-                ┗
+                <span id="subnav-pipe">┗</span>
                 <ul>
                   {{ range .Data.Pages.ByPublishDate }}
                       {{ if ne .Title $globalTitle }}

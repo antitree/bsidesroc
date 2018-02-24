@@ -13,7 +13,7 @@
   src: url('/fonts/Nexa Bold.otf');
 }
 
-0 .dark {
+.dark {
   color: #333333 !important;
 }
 
@@ -42,6 +42,9 @@
 }
 
 *, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -99,18 +102,6 @@ body {
 
 .icon {
   text-rendering: geometricPrecision !important;
-}
-
-.background-character {
-  //background: url(/img/hackerman.png) no-repeat;
-  width: 500px;
-  height: 700px;
-  background-size: contain;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -100;
-  opacity: 0.3;
 }
 
 section {
@@ -320,6 +311,7 @@ section.subnav nav ul {
 
 @media (max-width: 600px) {
   section.header-home {
+    padding-top: 10px !important;
     margin-bottom: 20px;
   }
   section.header .content {
@@ -335,14 +327,10 @@ section.subnav nav ul {
     margin-top: -86px;
     margin-left: 115px;
   }
-  section.header .name h1 {
-    position: relative;
-    top: 10px;
-  }
   section.header .name h2 {
     width: 260px;
     position: relative;
-    top: 16px;
+    top: 0;
     line-height: 20px;
     font-size: 75%;
   }
@@ -384,6 +372,12 @@ section.subnav nav ul {
   }
   section.main .container .content .post-item {
     margin-bottom: 20px;
+  }
+  section.subnav {
+    padding-top: 0 !important;
+  }
+  section.subnav #subnav-pipe {
+    display: none;
   }
   section.sponsors h3 {
     margin-right: 5px !important;
