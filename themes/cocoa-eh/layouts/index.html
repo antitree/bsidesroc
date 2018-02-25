@@ -16,7 +16,7 @@
 
             <ul>
             {{ range first 5 (.Data.Pages.GroupByDate "Jan, 2006" "desc")}}
-                {{ range where .Pages.ByPublishDate "Section" "blog"}}
+                {{ range where .Pages.ByPublishDate.Reverse "Section" "blog"}}
                     {{ partial "li.html" . }}
                 {{ end }}
             {{ end }}
