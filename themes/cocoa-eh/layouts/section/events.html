@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<section class="main">
+  <div class="container">
+    <div class="content">
+      <div class="page-heading">Sponsors</div>
+
+        {{ .Content }}
+
+        {{ $section := . }}
+            {{ range $sectionPage := $section.Pages }}
+
+
+                <div class="event">
+                  <div class="event--name">
+			  <a href="{{ .Permalink }}">{{ .Title }}</a>: {{ .Description }}
+                  </div>
+
+                </div>
+
+
+      {{ end }}
+
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
