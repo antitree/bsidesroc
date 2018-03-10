@@ -2,6 +2,7 @@
 date = "2017-02-07"
 title = "Community Room"
 draft = false
+description = "Visit with fellow members of the community and learn what they have to offer."
 +++
 
 <div style="float: right">

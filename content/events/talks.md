@@ -1,8 +1,9 @@
 +++
 date = "2018-02-07"
-title = "Events"
-draft = true
+title = "Talks"
+draft = false
 weight = -2000
+description =  "Listen and learn from industry experts"
 +++
 
 Here’s a list of the events that will be going on during BSidesROC:
