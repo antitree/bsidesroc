@@ -1,4 +1,26 @@
 {{ partial "header.html" . }}
+{{ $globalTitle := .Title}}
+
+{{ if ne (len (where .Data.Pages "Title" "!=" $globalTitle)) 0}}
+<section class="subnav">
+    <div class="container">
+        <div class="content">
+            {{ partial "page-heading.html" . }}
+            <nav id="subnav-nav">
+                <span id="subnav-pipe">┗</span>
+                <ul>
+                  {{ range .Data.Pages }}
+                      {{ if ne .Title $globalTitle }}
+                          {{ partial "li.html" . }}
+                      {{ end }}
+                  {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+{{ end }}
+
 
 <section class="main">
   <div class="container">
