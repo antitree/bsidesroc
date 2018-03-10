@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<section class="main post non-narrow zero-top-spacing">
+  <div class="container">
+    <div class="content">
+      <div class="front-matter">
+        <div class="title-container">
+          {{ partial "page-heading" . }}
+        </div>
+      </div>
+      <div class="markdown">
+        <div class="sponsor">
+
+          <p class="sponsor--blurb">
+            {{ .Page.Param "sponsor_blurb" }}
+          </p>
+
+          <a href="{{ .Page.Param " sponsor_home " }}" alt="{{ .Title }}" class="sponsor--logo">
+                <img src="{{ .Page.Param "sponsor_logo" }}" />
+          </a>
+        </div>
+
+        {{ .Content }}
+
+        <br>
+        <p><a href="/{{ .Section }}">Back to Sponsors</a></p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
