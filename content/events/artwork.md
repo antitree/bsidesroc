@@ -1,10 +1,16 @@
 +++
 date = "2017-02-07"
 title = "Artwork"
-draft = true
+draft = false
 +++
 
 We believe there’s a cross-over between hackers and artists and for that reason we try to engage with local artists to develop cool shirts and signs.
+## 2018
+
+T-shirt Design: TBA
+Poster Design: TBA
+Badget Design: TBA
+Coin Design: TBA
 
 ## 2017
 

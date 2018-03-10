@@ -9,7 +9,7 @@
             <nav id="subnav-nav">
                 <span id="subnav-pipe">┗</span>
                 <ul>
-                  {{ range .Data.Pages.ByPublishDate }}
+                  {{ range .Data.Pages }}
                       {{ if ne .Title $globalTitle }}
                           {{ partial "li.html" . }}
                       {{ end }}

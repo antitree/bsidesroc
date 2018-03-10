@@ -2,6 +2,7 @@
 date = "2017-02-09"
 title = "CFP"
 hidden = false
+weight = -101
 +++
 
 ### The Call For Presentations and Trainers for BSidesROC 2018 is now open!
