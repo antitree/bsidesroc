@@ -1,7 +1,8 @@
 +++
 date = "2017-02-07"
 title = "Crypto Challenge"
-draft = true
+draft = false
+description = "Do you have what it takes to crack the crypto puzzle?"
 +++
 
 <div style="float: right">
@@ -13,11 +14,3 @@ Prizes will be given away to winner. Please do not build more than 3 people per 
 
 Follow [Darth Null on Twitter](https://twitter.com/DarthNull) for updates. 
 
-<!--
-<pre>
-OVTZSMHNJRUIEWCDQPKBVGXFA0L
-ILTG4MDOQPEXSYJKVWBCZAHUNFR
-UMDGZRJBQTXC5SLYFPNIVOHKWAE
-PFWMYKGXCZTROAEVDQULIBSJ3HN
-</pre>
--->

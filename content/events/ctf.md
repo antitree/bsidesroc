@@ -3,6 +3,7 @@
 date = "2017-03-08"
 title = "CTF"
 hidden = false
+description = "Take part in our capture-the-flag competition and win prizes"
 +++
 # BSides Rochester<br>Capture The Flag
 

@@ -2,6 +2,7 @@
 date = "2017-02-07"
 title = "Artwork"
 draft = false
+description = "Find out who contributes to the designs for this year's artwork"
 +++
 
 We believe there’s a cross-over between hackers and artists and for that reason we try to engage with local artists to develop cool shirts and signs.
