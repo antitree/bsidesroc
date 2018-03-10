@@ -1,7 +1,8 @@
 +++
-date = "2017-02-07"
+date = "2018-02-07"
 title = "Events"
-draft = false
+draft = true
+weight = -2000
 +++
 
 Here’s a list of the events that will be going on during BSidesROC:
