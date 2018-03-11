@@ -9,22 +9,15 @@
         </div>
       </div>
       <div class="markdown">
-        <div class="sponsor">
 
-          <p class="sponsor--blurb">
-            {{ .Page.Param "sponsor_blurb" }}
-          </p>
-
-          <a href="{{ .Page.Param " sponsor_home " }}" alt="{{ .Title }}" class="sponsor--logo">
-                <img src="{{ .Page.Param "sponsor_logo" }}" />
-          </a>
+	      {{ partial "ops.html" . }}
 
         </div>
 
         {{ .Content }}
 
         <br>
-        <p><a href="/{{ .Section }}">Back to Events</a></p>
+        <p><a href="/{{ .Section }}">Back to Sponsors</a></p>
 
       </div>
     </div>
