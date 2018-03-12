@@ -1,4 +1,4 @@
-    {{ range $i, $r := getCSV "\t" "/data/ops.tsv" }}
+    {{ range $i, $r := getCSV "\t" "/exports/ops.tsv" }}
     	{{ if ne $i 0 }}
 	{{ $name := plainify (index $r 0) }}
 	{{ $positions := plainify (index $r 1) }}
