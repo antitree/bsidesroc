@@ -1,6 +1,7 @@
 +++
 date = "2017-02-02"
 title = "Code of Conduct"
+weight = 9001
 +++
 
 One of the goals we have with BSidesROC is to foster open discussion between attendees, speakers, and staff. Expressing radical viewpoints is welcome, and a high degree of skepticism on all sides is expected. Regardless, we aim to make BSidesROC a safe environment for everyone. We hold to the hacker ethos that what you look like is not important, your brain is what matters. As such, insulting or harassing other participants is unacceptable. We do not condone harassment against any participant, for any reason. Harassment includes deliberate intimidation, and targeting individuals in a manner that makes them feel unwelcome, or afraid – it does not include expressing viewpoints in a civil manner, even if they run contrary to the views others hold.

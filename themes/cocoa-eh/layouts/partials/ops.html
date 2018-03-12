@@ -1,0 +1,18 @@
+    {{ range $i, $r := getCSV "\t" "/data/ops.tsv" }}
+    	{{ if ne $i 0 }}
+	{{ $name := plainify (index $r 0) }}
+	{{ $positions := plainify (index $r 1) }}
+	{{ $bio := plainify (index $r 5) }}
+	{{ $twitter := index $r 6 }}
+	
+	<h3 class="sponsor--level">{{ $name }} {{if $twitter }}
+		<a href="https://www.twitter.com/{{ substr $twitter 1 }}">{{ $twitter }}</a>
+		{{end}}
+	</h3>
+	<div class="sponsor">
+		<p style="font-weight:bold">{{ $positions }}</p>
+		<p>
+		{{ $bio}}
+	</div>
+        {{ end }} 
+    {{ end }}
