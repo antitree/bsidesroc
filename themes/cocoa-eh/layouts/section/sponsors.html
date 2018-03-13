@@ -14,36 +14,25 @@
           <hr/> */}}
 
           {{ range $level := $.Site.Params.sponsorLevels }}
-
+          <div class="section-sponsor-level">
             <h3 class="sponsor--level">{{ $level }} Level</h3>
-
             {{ range $sectionPage := $section.Pages }}
-
               {{ if in (split ($sectionPage.Param $level) " ") (string $year) }}
-
                 <div class="sponsor">
                   <a href="{{ $sectionPage.Param "sponsor_home" }}" alt="{{ .Title }}" class="sponsor--logo">
                     <img src="{{ $sectionPage.Param "sponsor_logo" }}" />
                   </a>
 
-		  {{ if eq $level "Gold" }}  
-		  <div class="sponsor--name">
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                  </div>
-
-                  <p class="sponsor--blurb">
-                    {{ $sectionPage.Param "sponsor_blurb" }}
-                  </p>
-		  {{ end }}
+                  {{ if ne $level "In-Kind" }}  
+                  <div class="sponsor--name"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                  <p class="sponsor--blurb">{{ $sectionPage.Param "sponsor_blurb" }}</p>
+                  {{ end }}
                 </div>
-
               {{ end }}
-
             {{ end }}
-
+          </div>
           {{ end }}
-
-      {{ end }}
+        {{ end }}
 
       <h2 class="sponsor--community">Community</h2>
 

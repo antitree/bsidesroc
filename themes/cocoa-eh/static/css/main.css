@@ -1030,14 +1030,15 @@ section.main .content .markdown blockquote p:last-child {
 
 .sponsor--level {
   font-size: 1.5rem;
-  font-weight: bolder;
   margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
+  font-family: 'Euro', 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  letter-spacing: -0.005rem;
 }
 
 .sponsor {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 .sponsor--logo {
@@ -1059,4 +1060,9 @@ section.main .content .markdown blockquote p:last-child {
   font-size: 1.25rem;
   font-weight: bolder;
   margin-top: 1rem;
+}
+
+.section-sponsor-level {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
