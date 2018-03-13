@@ -1,7 +1,7 @@
 +++
 title = "GreyCastle Security"
-gold = "2017"
-sponsor_logo = "/img/sponsors/greycastle.jpg"
-sponsor_home = "https://greycastlesecurity.com/company/careers.shtml?utm_source=BSides%20Rochester&utm_campaign=BSides%20Rochester%20Event%2004-22-17&utm_medium=Event"
-sponsor_blurb = "GreyCastle Security was founded half a decade ago on the principle that cybersecurity and effective defense is entirely possible if you use common sense, apply a system of measurement and know what you're trying to protect. GreyCastle Security is the leading cybersecurity services provider dedicated exclusively to cybersecurity and the practical management of cybersecurity risks."
+gold = "2018 2017"
+sponsor_logo = "/img/sponsors/greycastle-2018-gold.jpg"
+sponsor_home = "https://greycastlesecurity.com/"
+sponsor_blurb = "GreyCastle Security is the industry’s leading provider of cybersecurity risk assessment, advisory and mitigation services. The company was established to help organizations establish effective cybersecurity programs, minimize the impact of security incidents and simplify compliance. GreyCastle Security has clients throughout North America, specializing in cybersecurity for healthcare, higher education, financial services, technology and critical infrastructure."
 +++
