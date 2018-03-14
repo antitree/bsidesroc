@@ -1,7 +1,7 @@
 +++
 date = "2017-02-09"
 title = "CFP"
-hidden = false
+hidden = true
 weight = -101
 +++
 
