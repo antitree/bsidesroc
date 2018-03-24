@@ -33,7 +33,9 @@
 
 
 	{{ $times := seq 800 50 1800 }}
-	{{ $newtimes := apply $times "replace" "." "50" "30" }}
+	{{ $newtimes := apply $times "replace" "." "1500" "15xx" }}
+	{{ $newnewtimes := apply $newtimes "replace" "." "50" "30"  }}
+	{{ $newtimes := apply $newnewtimes "replace" "." "15xx" "1500" }}
 
 	<table>
 		<tr><th>Time</th><th>Track 1</th><th>Track 2</th><th>Track 3</th></tr>
