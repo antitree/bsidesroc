@@ -10,5 +10,5 @@ time_start= "930"
 slides= ""
 video= ""
 description= "This talk will cover the basics of protocol analysis using Wireshark and lead into analyzing two custom application protocols used for extending the mouse and keyboard of a remote system.  The two applications covered are HippoRemote, and iOS app to use a iPhone as a trackpad and keyboard, and Synergy, an application to allow for control of multiple operating systems with one mouse and keyboard.  By performing a MITM attack, an attacker can abuse this protocols to send keystokes to a remote machine to gain remote code execution similar to a USB rubber ducky attack.  The talk will also discuss mitigations and open source code will be provided for exploitation. "
-stub= "ducky-in-the-middle_injecting_keystrokes_into"
+stub= "duckyinthemiddle_injecting_keystrokes_into"
 +++

@@ -34,7 +34,8 @@ class Talk(object):
     @stub.setter
     def stub(self, value):
         value = html.escape(value).lower()
-        value = value.replace(':', '')
+        value = "".join([x for x in value if x.isalnum() or x == "_"])
+        value = value.replace(':', '').replace(';','').replace('&', '')
         if not value.isprintable(): raise Exception("Stub can only be alpha chars: %s" % value)
         self._stub = value
 
