@@ -1,8 +1,8 @@
 +++
 date = "2017-02-09"
-title = "Talks"
+title = "Schedule"
 hidden = false
-#type = "schedule"
+type = "schedule"
 #layout = "summary"
 weight = 1
 +++

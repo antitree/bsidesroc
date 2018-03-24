@@ -178,6 +178,14 @@ section.sponsors {
   order: 4;
 }
 
+.speaker-header {
+	column-count:3;
+}
+
+.speaker-speaker {
+	font-size: 400%;
+}
+
 @media (min-width: 600px) {
   section.header {
     -webkit-order: 0;

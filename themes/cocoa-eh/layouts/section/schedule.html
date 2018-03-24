@@ -1,5 +1,28 @@
 {{ partial "header.html" . }}
 
+{{ $globalTitle := .Title}}
+
+{{ if ne (len (where .Data.Pages "Title" "!=" $globalTitle)) 0}}
+<section class="subnav">
+    <div class="container">
+        <div class="content">
+            {{ partial "page-heading.html" . }}
+            <nav id="subnav-nav">
+                <span id="subnav-pipe">┗</span>
+                <ul>
+                  {{ range .Data.Pages }}
+                      {{ if ne .Title $globalTitle }}
+                        {{ if eq .Title "Talks"}}
+                          {{ partial "li.html" . }}
+                      {{ end }}{{ end}}
+                  {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+{{ end }}
+
 <section class="main">
   <div class="container">
     <div class="content">
@@ -7,7 +30,8 @@
 
         {{ .Content }}
 
-	<h2>Need to add subnav here</h2>
+
+
 	{{ $times := seq 800 50 1800 }}
 	{{ $newtimes := apply $times "replace" "." "50" "30" }}
 
@@ -20,9 +44,17 @@
 			<tr><td>{{ . }}</td>
 
 				<td>
+
+
+
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 1" }}
-						<a href="/schedule/{{ lower .Params.stub }}">{{ htmlUnescape .Params.Title }}</a>
+						{{ if .Params.nolink }}
+						{{ htmlUnescape .Params.Title }}
+						{{ else  }}
+						<a href="/schedule/{{ lower .Params.stub }}">
+						{{ htmlUnescape .Params.Title }}</a>
+						{{ end }}
 					{{ end}}
 				{{ end }}
 				</td>
@@ -30,25 +62,36 @@
 				<td>
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 2" }}
+						{{ if .Params.nolink }}
+						{{ htmlUnescape .Params.Title }}
+						{{ else  }}					
 						<a href="/schedule/{{ lower .Params.stub }}">{{ htmlUnescape .Params.Title }}</a>
-					{{ end}}
+					{{ end}}					{{ end}}
+
 				{{ end }}
 				</td>
 
 				<td>
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 3" }}
+						{{ if .Params.nolink }}
+						{{ htmlUnescape .Params.Title }}
+						{{ else  }}
 						<a href="/schedule/{{ lower .Params.stub }}">{{ htmlUnescape .Params.Title }}</a>
-					{{ end}}
+					{{ end}}					{{ end}}
+
 				{{ end }}
 				</td></tr>
 		{{ end }}
 	
 	</table>
-
-
-	<p>Link to <a href="fuqua/">Fuqua Talk</a></p>
-
+	<br/>
+	<p align="right">
+		Other formats:
+		<ul align="right"><li>JSON</li>
+		<li> Full Program</li>
+	</ul>
+	</p>
 	
   </div>
 </section>
