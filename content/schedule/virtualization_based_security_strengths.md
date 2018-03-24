@@ -10,5 +10,5 @@ time_start= "1000"
 slides= ""
 video= ""
 description= "During this short discussion and demo session we will review the topic of Virtualization Based Security (&quot;VBS&quot;). We will also review the need for it and review the currently available solutions. This discussion will focus on the strengths and weakness of the existing commercially available solutions from Microsoft and Bromium, including some known exploits. The discussion will be &quot;demonstration heavy&quot; and light on slides. We will be demonstrating common credential theft attacks, malicious download attacks, including ransomware and effective mitigation tactics. "
-stub= "Virtualization_Based_Security_Strengths"
+stub= "virtualization_based_security_strengths"
 +++

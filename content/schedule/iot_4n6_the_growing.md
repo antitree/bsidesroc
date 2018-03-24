@@ -10,5 +10,5 @@ time_start= "1400"
 slides= ""
 video= ""
 description= "Gartner predicts that by 2020 there will be more than 20 billion connected &quot;things,&quot; not including smartphones, in the world. That&#x27;s 20 billion things collecting data, 20 billion potential &quot;technological witnesses.  How does this impact forensics and investigations?  How can you create an investigative hierarchy to ensure your time is properly spent investigating these devices, their apps, and the cloud  or other areas where IoT might store data? How do you determine what&#x27;s relevant and help investigators or operational personnel to see where the data fits into the larger context of their efforts?  "
-stub= "IoT_4n6:_The_Growing"
+stub= "iot_4n6_the_growing"
 +++

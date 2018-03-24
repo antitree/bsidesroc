@@ -10,5 +10,5 @@ time_start= "1500"
 slides= ""
 video= ""
 description= "This session will discuss how web application penetration testers can improve their white box testing using two new open source tools, funded by the Department of Homeland Security. The Attack Surface Detector tool performs static code analysis to detect hidden endpoints and parameters and pulls them into Burp Suite and OWASP ZAP attack surface. The second tool, OWASP Code Pulse, instruments the web application server bytecode to provide real-time code coverage to help identify gaps in testing, help tune and compare testing tools, as well as provide a useful metric for communicating testing activities."
-stub= "Open_source_SAST_and"
+stub= "open_source_sast_and"
 +++

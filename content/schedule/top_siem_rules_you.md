@@ -10,5 +10,5 @@ time_start= "1600"
 slides= ""
 video= ""
 description= "Developing and maintaining an effective SIEM often takes a small army, and can be quite vexatious. In this talk, the audience will be presented with a compilation of the best and most effective SIEM use cases. Gone are the days of noisy, false positive prone alerts – this talk is focused on high accuracy use cases only! We will tie these use cases back to activities performed by threat actors and red teams alike. This talk will be of interest to SOC analysts, security engineers and SIEM content developers."
-stub= "Top_SIEM_Rules_You"
+stub= "top_siem_rules_you"
 +++

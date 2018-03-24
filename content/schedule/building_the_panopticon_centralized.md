@@ -10,5 +10,5 @@ time_start= "900"
 slides= ""
 video= ""
 description= "The goal of Jeremy Bentham&#x27;s Panopticon was to allow a single watchman to observe everything going on in a large building. This is similar to what threat hunters and blue teamers want - a single point to observe all the potentially malicious activities happening on a network. This talk presents one toolset that can provide this visibility using a mixture of no-cost and open source tools deployed on commodity hardware."
-stub= "Building_the_Panopticon:_Centralized"
+stub= "building_the_panopticon_centralized"
 +++

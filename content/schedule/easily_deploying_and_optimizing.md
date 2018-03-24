@@ -10,5 +10,5 @@ time_start= "900"
 slides= ""
 video= ""
 description= "It’s been over a decade since the initial release of the OWASP Core Rule Set (CRS), a set of open source web application security controls written in the ModSecurity SecRules language. In that time, CRS has become the defacto standard for various WAFs and expanded capabilities to cover everything from basic UTF-7 XSS to Java Deserialization and everything in between. In this talk we’ll discuss how both traditional and modern web environments deploys CRS, the features of upcoming releases, and how to deal with common issues that may be encountered."
-stub= "Easily_Deploying_and_Optimizing"
+stub= "easily_deploying_and_optimizing"
 +++

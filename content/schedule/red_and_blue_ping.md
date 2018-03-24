@@ -10,5 +10,5 @@ time_start= "1400"
 slides= ""
 video= ""
 description= "This talk will demonstrate a defender and attacker playing a game of whack-a-mole using “living off the land” approaches both defensively and offensively. The talk will demonstrate how free Microsoft tools and other OSS can be used to build a robust defensive framework capable of detecting new and stealthy attacks."
-stub= "Red_and_Blue_Ping"
+stub= "red_and_blue_ping"
 +++

@@ -10,5 +10,5 @@ time_start= "1300"
 slides= ""
 video= ""
 description= "Over the past year, we&#x27;ve witnessed a shift in malware used by both the common criminal, and targeted actor alike. While ransomware was the bell of the ball in the past, it has been replaced with the up and coming cryptocurrency miner. This talk will explore the trends witnessed in the past year as they pertain to the rise in popularity of cryptocurrency miners being used and deployed by criminals. We&#x27;ll talk about how and why this transition has occurred, as well as a number of interesting case studies about how this malware winds up on a victim&#x27;s machine. Finally, we&#x27;ll also discuss the most popular cryptocurrencies being mined today, and strategies you can take to mitigate this threat. "
-stub= "Rise_of_the_Miners"
+stub= "rise_of_the_miners"
 +++

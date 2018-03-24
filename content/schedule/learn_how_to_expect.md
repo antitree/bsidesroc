@@ -10,5 +10,5 @@ time_start= "1000"
 slides= ""
 video= ""
 description= "The pace of databreaches has reached epic proportions. Organizations large and small, in every industry are falling victim to hackers, hacktivists and nation states. Incident Response is a dynamic process where the unsuspected often becomes the root cause. From insider threats to unauthorized access with a bit of extortion, it isn’t always what it seems. Take a walk with us down some seemingly normal paths that lead to the unexpected. Real security incidents, unusual situations."
-stub= "Learn_How_to_Expect"
+stub= "learn_how_to_expect"
 +++

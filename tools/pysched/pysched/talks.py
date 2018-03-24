@@ -33,7 +33,8 @@ class Talk(object):
 
     @stub.setter
     def stub(self, value):
-        value = html.escape(value)
+        value = html.escape(value).lower()
+        value = value.replace(':', '')
         if not value.isprintable(): raise Exception("Stub can only be alpha chars: %s" % value)
         self._stub = value
 
@@ -47,6 +48,7 @@ class Talk(object):
         if not isinstance(value, str): raise Exception("Title must be a string")
         self._title = value
         titlewords = re.sub(r'\W+', "", value).lower()
+        titlewords = titlewords.replace(':','')
         titlewords = value.split()
         self.stub = "_".join(titlewords[:4])
 
@@ -189,5 +191,6 @@ stub= "{stub}"
             stub=self.stub
             )
         f = open(path + self.stub + ".md", 'w')
+        print(self.stub)
         f.writelines(md)
         f.close()

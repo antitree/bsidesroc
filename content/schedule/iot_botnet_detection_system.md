@@ -10,5 +10,5 @@ time_start= "1330"
 slides= ""
 video= ""
 description= "IoT Botnets recently became a destructive weapon against the internet domain, most notably Marai and the up and coming Reaper botnet.  Our research focuses on determining which features are most relevant in detecting botnet activity and designing a machine learning infrastructure to detect anomalies.  Our talk will provide a high level overview of our system which features a method for dynamically generating profiles about known device traffic and signatures for anomaly detection."
-stub= "IoT_Botnet_Detection_System"
+stub= "iot_botnet_detection_system"
 +++

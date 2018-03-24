@@ -10,5 +10,5 @@ time_start= "1400"
 slides= ""
 video= ""
 description= "The look into the unknown world of Restaurant Point of Sale systems and how insecure they are."
-stub= "How_to_&amp;quot;hack&amp;quot;_point"
+stub= "how_to_&amp;quot;hack&amp;quot;_point"
 +++

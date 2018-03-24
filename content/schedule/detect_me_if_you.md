@@ -10,5 +10,5 @@ time_start= "900"
 slides= ""
 video= ""
 description= "As long as there is a &quot;Patch Tuesday&quot;, and software has bugs, there will always be an attack vector to which defensive controls are unable to defend. This is because most defensive strategies have focused on stopping attacks at their initial vector. In this talk, I will go over how I attack and bypass most deflection controls and go under the detection radar. I will then highlight the areas where defenders can begin to build a detection defense which will identify attacker behavior regardless of the initial vector. I will run through attacks I have used, which bypass several deflective controls, and show you how you can create detection controls to detect me; that is, if you can."
-stub= "Detect_Me_If_You"
+stub= "detect_me_if_you"
 +++

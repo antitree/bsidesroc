@@ -10,5 +10,5 @@ time_start= "1500"
 slides= ""
 video= ""
 description= "Security Technical Implementation Guides (STIGs) are used to both harden and assess many government information systems. In this presentation, the speaker will demonstrate how the STIGViewer tool is used to apply STIG rules to a Windows 7 laptop. There will also be a brief discussion of why &quot;STIGing&quot; a system is a useful tool for determining the security posture of a system."
-stub= "What_are_STIGs_and"
+stub= "what_are_stigs_and"
 +++
