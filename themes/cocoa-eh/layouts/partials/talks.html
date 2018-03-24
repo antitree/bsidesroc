@@ -1,20 +1,11 @@
-    {{ range $i, $r := getCSV "\t" "/exports/presentations.tsv" }}
-    	{{ if ne (index $r 13) "DENIED" }}
-    	{{ if ne $i 0 }}
-	{{ $name := plainify (index $r 2) }}
-	{{ $shortname := $name }}
-	{{ $title := plainify (index $r 4) }}
-	{{ $shorttitle := $title }} 
-	{{ $description := safeCSS (index $r 5) }}
-	{{ $bio := safeCSS (index $r 6) }}
-	
-	<div class="sponsor">
-		<h2><p><a name="{{ $shorttitle }}">{{ $title}}</a></p></h2>
+	<div class="sponsors">
+		<h2><a href="/schedule/talks/{{ .Params.stub }}">{{ htmlUnescape .Params.title }} </a></h2>
 
-		<p>{{ $description}}</p>
+		<p>Length: {{ .Params.length }} Minutes </p>
 
-		<p>{{ $bio}}</p>
+		<p>{{ .Params.room }} at {{ .Params.time_start }}</p>
+
+		<p><strong>Talk Description:</strong> {{ htmlUnescape .Params.description}}</p>
+
+		<p><strong>Bio:</strong> {{ .Params.bio}}</p>
 	</div>
-        {{ end }} 
-	{{ end }}
-    {{ end }}

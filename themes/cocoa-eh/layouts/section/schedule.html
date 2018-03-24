@@ -1,0 +1,60 @@
+{{ partial "header.html" . }}
+
+<section class="main">
+  <div class="container">
+    <div class="content">
+      <div class="page-heading">Schedule</div>
+
+        {{ .Content }}
+
+	<h2>Need to add subnav here</h2>
+
+	<h2>HTML TABLE GOES HERE</h2>
+
+	<p>Link to <a href="fuqua/">Fuqua Talk</a></p>
+
+	{{ $section := . }}
+	{{ range $sectionPage := $section.Pages }}
+	<p>What dis: {{ $sectionPage.Params.stub }}</p>
+	{{ end }}
+
+        {{ $section := . }}
+        {{ range $year := $.Site.Params.thisYear }}
+
+          {{/* <h2 class="sponsor--year">Our {{ $year }} Sponsors</h2>
+          <hr/> */}}
+
+          {{ range $level := $.Site.Params.sponsorLevels }}
+          <div class="section-sponsor-level">
+            <h3 class="sponsor--level">{{ $level }} Level</h3>
+            {{ range $sectionPage := $section.Pages }}
+              {{ if in (split ($sectionPage.Param $level) " ") (string $year) }}
+                <div class="sponsor">
+                  <a href="{{ $sectionPage.Param "sponsor_home" }}" alt="{{ .Title }}" class="sponsor--logo">
+                    <img src="{{ $sectionPage.Param "sponsor_logo" }}" />
+                  </a>
+
+                  {{ if ne $level "In-Kind" }}  
+                  <div class="sponsor--name"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+                  <p class="sponsor--blurb">{{ $sectionPage.Param "sponsor_blurb" }}</p>
+                  {{ end }}
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+        {{ end }}
+
+      <h2 class="sponsor--community">Community</h2>
+
+      <ul>
+        <li><a href="https://tooolroc.org/">TOOOL Rochester</a></li>
+        <li><a href="https://www.interlockroc.org/">Interlock Rochester</a></li>
+        <li><a href="https://www.rochester2600.com/">Rochester 2600</a></li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

@@ -1,25 +1,22 @@
 {{ partial "header.html" . }}
 
-<section class="main post non-narrow zero-top-spacing">
+<section class="main">
   <div class="container">
     <div class="content">
-      <div class="front-matter">
-        <div class="title-container">
-          {{ partial "page-heading" . }}
-        </div>
-      </div>
-      <div class="markdown">
+      <div class="page-heading">Talks</div>
 
-	      {{ partial "schedule.html" . }}
-
-        </div>
 
         {{ .Content }}
 
-        <br>
-	<p><!--<a href="/{{ .Section }}">Back to Schedule</a>--></p>
+	{{ range where .Site.Pages "Section" .Section }}
 
-      </div>
+		{{ if (in .Params.room "Track") }}
+
+		{{ partial "talks.html" . }}
+		{{ end }}
+
+	{{ end }}
+
     </div>
   </div>
 </section>

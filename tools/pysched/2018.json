@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Keynote: Matthew Mitchell",
+        "type": "Keynote",
+        "description": "DESCRIPTION",
+        "speakers": "Matthew Mitchell",
+        "date": "2018-04-14",
+        "time_start": "12:00",
+        "time_end": "12:50",
+        "length": "1.0",
+        "room": "Track 1"
+    },
+    {
+        "title": "Openning Remarks",
+        "type": "Special Event",
+        "description": "Opening remarks from the BSidesROC team",
+        "speakers": "TBA",
+        "date": "2018-04-14",
+        "time_start": "13:00",
+        "time_end": "17:00",
+        "length": 4.0,
+        "room": "Track 1"
+    }
+]
