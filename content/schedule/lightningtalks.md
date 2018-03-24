@@ -11,5 +11,6 @@ slides= ""
 video= ""
 description= ""
 stub= "lightning_talks"
+nolink = true
 +++
 
