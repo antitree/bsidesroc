@@ -1,6 +1,7 @@
 import json
 import html
 import os
+import re
 
 class Talk(object):
     VALIDTYPES = ["appsec", "netsec", "meta", "hacking", "dfir", "keynote", ""]
@@ -33,7 +34,7 @@ class Talk(object):
     @stub.setter
     def stub(self, value):
         value = html.escape(value)
-        if not value.isalpha(): raise Exception("Stub can only be alpha chars: %s" % value)
+        if not value.isprintable(): raise Exception("Stub can only be alpha chars: %s" % value)
         self._stub = value
 
     @property
@@ -45,6 +46,9 @@ class Talk(object):
         value = html.escape(value)
         if not isinstance(value, str): raise Exception("Title must be a string")
         self._title = value
+        titlewords = re.sub(r'\W+', "", value).lower()
+        titlewords = value.split()
+        self.stub = "_".join(titlewords[:4])
 
 
     @property
@@ -76,13 +80,6 @@ class Talk(object):
         value = html.escape(value)
         if not isinstance(value, str): raise Exception("Speakers must be a string")
         self._speakers = value
-        speakers = value.split()
-        if len(speakers) > 1:
-            self.stub = speakers[1]
-        elif len(speakers) == 1:
-            self.stub = speakers[0]
-        else:
-            self.stub = "none"
 
     @property
     def bio(self):
