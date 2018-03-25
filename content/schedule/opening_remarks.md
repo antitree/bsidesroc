@@ -2,6 +2,7 @@
 date = "2017-02-07"
 title = "Opening Remarks"
 draft = false
+length = 20
 nolink = true 
 room = "Track 1"
 time_start = "830"

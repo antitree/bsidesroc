@@ -5,11 +5,7 @@ type= ""
 thedate= ""
 length= "50"
 room= "Track 3"
-bio= ""
-time_start= "1530"
-slides= ""
-video= ""
-description= ""
+time_start= "1600"
 stub= "lightning_talks"
 nolink = true
 +++

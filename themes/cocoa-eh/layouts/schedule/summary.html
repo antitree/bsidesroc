@@ -22,7 +22,7 @@
         <div class="markdown">
 	 {{ range where .Site.Pages "Section" .Section }}
 
-		{{ if (in .Params.room "Track") }}
+		{{ if and (isset .Params "room") (not (isset .Params "nolink"))}}
 
 		{{ partial "talks.html" . }}
 		{{ end }}

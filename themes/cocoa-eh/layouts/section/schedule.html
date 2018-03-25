@@ -36,7 +36,7 @@
 	{{ $newtimes := apply $times "replace" "." "1500" "15xx" }}
 	{{ $newnewtimes := apply $newtimes "replace" "." "50" "30"  }}
 	{{ $newtimes := apply $newnewtimes "replace" "." "15xx" "1500" }}
-
+	<div class="markdown">
 	<table>
 		<tr><th>Time</th><th>Track 1</th><th>Track 2</th><th>Track 3</th></tr>
 
@@ -45,12 +45,15 @@
 		{{ range $time := $newtimes }}
 			<tr><td>{{ . }}</td>
 
-				<td>
 
 
 
+				
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 1" }}
+					<td {{ if eq .Params.length "50"}}rowspan="2"{{end}}
+					{{ if eq .Params.span "all"}}colspan="3" align="center"{{end}}
+					>
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
 						{{ else  }}
@@ -61,9 +64,11 @@
 				{{ end }}
 				</td>
 
-				<td>
+				
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 2" }}
+						<td {{ if eq .Params.length "50"}}rowspan="2"{{end}}>
+
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
 						{{ else  }}					
@@ -73,9 +78,10 @@
 				{{ end }}
 				</td>
 
-				<td>
+				
 				{{ range where $section.Pages "Params.time_start" (string $time)  }}
 					{{ if eq .Params.room "Track 3" }}
+						<td {{ if eq .Params.length "50"}}rowspan="2"{{end}}>
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
 						{{ else  }}
@@ -87,6 +93,7 @@
 		{{ end }}
 	
 	</table>
+</div>
 	<br/>
 	<p align="right">
 		Other formats:
