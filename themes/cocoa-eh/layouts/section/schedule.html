@@ -56,7 +56,12 @@
 					>
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
-						{{ else  }}
+						
+						{{ else if isset .Params "link" }}
+						<a href="{{ .Params.link }}">	
+						{{ htmlUnescape .Params.Title }}</a>	
+						
+						{{ else }}
 						<a href="/schedule/{{ lower .Params.stub }}">
 						{{ htmlUnescape .Params.Title }}</a>
 						{{ end }}
@@ -71,6 +76,12 @@
 
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
+
+						{{ else if isset .Params "link" }}
+						<a href="{{ .Params.link }}">	
+						{{ htmlUnescape .Params.Title }}</a>	
+
+
 						{{ else  }}					
 						<a href="/schedule/{{ lower .Params.stub }}">{{ htmlUnescape .Params.Title }}</a>
 					{{ end}}					{{ end}}
@@ -84,6 +95,13 @@
 						<td {{ if eq .Params.length "50"}}rowspan="2"{{end}}>
 						{{ if .Params.nolink }}
 						{{ htmlUnescape .Params.Title }}
+
+						{{ else if isset .Params "link" }}
+						<a href="{{ .Params.link }}">	
+						{{ htmlUnescape .Params.Title }}</a>	
+
+
+
 						{{ else  }}
 						<a href="/schedule/{{ lower .Params.stub }}">{{ htmlUnescape .Params.Title }}</a>
 					{{ end}}					{{ end}}

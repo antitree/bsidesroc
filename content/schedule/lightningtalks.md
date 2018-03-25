@@ -7,6 +7,6 @@ length= "50"
 room= "Track 3"
 time_start= "1600"
 stub= "lightning_talks"
-nolink = true
+link = "/events/lightning-talks"
 +++
 

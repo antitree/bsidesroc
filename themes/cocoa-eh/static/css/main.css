@@ -1074,3 +1074,8 @@ section.main .content .markdown blockquote p:last-child {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+.speaker-header {
+ font-size: 120%;
+ font-weight: bolder;
+}
