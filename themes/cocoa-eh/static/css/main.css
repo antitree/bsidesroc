@@ -178,6 +178,14 @@ section.sponsors {
   order: 4;
 }
 
+.speaker-header {
+	column-count:3;
+}
+
+.speaker-speaker {
+	font-size: 400%;
+}
+
 @media (min-width: 600px) {
   section.header {
     -webkit-order: 0;
@@ -1065,4 +1073,9 @@ section.main .content .markdown blockquote p:last-child {
 .section-sponsor-level {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.speaker-header {
+ font-size: 120%;
+ font-weight: bolder;
 }

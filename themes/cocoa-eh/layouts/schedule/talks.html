@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+
+{{ $globalTitle := .Title}}
+
+{{ if ne (len (where .Data.Pages "Title" "!=" $globalTitle)) 0}}
+<section class="subnav">
+    <div class="container">
+        <div class="content">
+            {{ partial "page-heading.html" . }}
+            <nav id="subnav-nav">
+                <span id="subnav-pipe">┗</span>
+                <ul>
+                  {{ range .Data.Pages }}
+                      {{ if ne .Title $globalTitle }}
+                        {{ if eq .Type "talks"}}
+
+                          {{ partial "li.html" . }}
+                      {{ end }}{{ end}}
+                  {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<section class="main post non-narrow zero-top-spacing">
+  <div class="container">
+    <div class="content">
+      <div class="front-matter">
+        <div class="title-container">
+          {{ partial "page-heading" . }}
+        </div>
+      </div>
+      <div class="markdown">
+
+	      {{ partial "talks.html" . }}
+
+        </div>
+
+        {{ .Content }}
+
+        <br>
+        <p><a href="/{{ .Section }}">Back to Schedule</a></p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
