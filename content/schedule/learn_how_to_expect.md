@@ -1,6 +1,6 @@
 +++
 title= "Learn How to Expect the Unexpected: Unusual &amp; Unexpected Findings in Incident Response "
-speakers= "Nina Buonarota"
+speakers= "Adam Dean"
 type= ""
 thedate= ""
 length= "50"
