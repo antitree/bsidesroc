@@ -2,11 +2,12 @@
 date = "2017-02-07"
 title = "Lightning Talks"
 draft = false
+description = "Present your 10 minute presentation on your talk of choice in this fast paced presentation style"
 +++
 <div style="float: right">
 ![Lightning Talks](/img/icons/lightningtalks.png)
 </div>
-Lightning Talks are a group of 15-20 minute presentations strung together that happen in the Workshop track in the afternoon. Instead of the 50 minute talks that we organize in the main track, Lightning Talks are open to the public at the day of the event. That means we don’t know what you’ll be talking about. Some ideas for your talk could be:
+Lightning Talks are a group of 5-10 minute presentations strung together that happen in the Workshop track in the afternoon. Instead of the 50 minute talks that we organize in the main track, Lightning Talks are open to the public at the day of the event. That means we don’t know what you’ll be talking about. Some ideas for your talk could be:
 
 - Your favorite new security tool
 - A research project you think the crowd would enjoy
