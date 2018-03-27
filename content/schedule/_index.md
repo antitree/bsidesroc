@@ -2,7 +2,8 @@
 date = "2017-02-09"
 title = "Schedule"
 hidden = false
+type = "schedule"
+#layout = "summary"
 weight = 1
 +++
 
-The schedule is still being finalized. Check back soon. 

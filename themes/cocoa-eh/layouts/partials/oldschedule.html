@@ -1,0 +1,44 @@
+	
+	{{ $start := 900 }}
+	{{ $end := 1700 }}
+	{{ $step := 30 }}
+	<h1>
+
+
+			
+	
+	</h1>
+
+	<table>
+	{{ range $i,$b := $.Site.Data.schedule }}
+		<tr>
+	{{ range $ii,$bb := $b }}
+		<td rowspan="{{ $bb }}">{{ $ii }}</td>
+
+
+	{{ end }}
+		</tr>
+	{{ end }}
+</table>
+
+
+	{{ range $i, $r := getCSV "\t" "/exports/presentations.tsv" }}
+    	{{ if ne (index $r 13) "DENIED" }}
+    	{{ if ne $i 0 }}
+	{{ $name := plainify (index $r 2) }}
+	{{ $shortname := $name }}
+	{{ $title := plainify (index $r 4) }}
+	{{ $shorttitle := $title }} 
+	{{ $description := safeCSS (index $r 5) }}
+	{{ $bio := safeCSS (index $r 6) }}
+	
+	<div class="sponsor">
+		<h2><p><a name="{{ $shorttitle }}">{{ $title}}</a></p></h2>
+
+		<p>{{ $description}}</p>
+
+		<p>{{ $bio}}</p>
+	</div>
+        {{ end }} 
+	{{ end }}
+    {{ end }}
