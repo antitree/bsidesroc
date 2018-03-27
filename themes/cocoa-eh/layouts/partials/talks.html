@@ -12,5 +12,5 @@
 
 		{{ if isset .Params "description" }} <p><strong>Talk Description:</strong> {{ htmlUnescape .Params.description}}</p>{{end}}
 
-		{{ if isset .Params "bio"}}<p><strong>Bio:</strong> {{ .Params.bio}}</p>{{end}}
+		{{ if isset .Params "bio"}}<p><strong>Bio:</strong> {{ htmlUnescape .Params.bio}}</p>{{end}}
 	</div>
