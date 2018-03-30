@@ -22,7 +22,7 @@
 }
 
 .accent {
-  color: #ff29f5 !important;
+  color: #e1259e !important;
 }
 
 @media (min-width: 550px) {
@@ -253,7 +253,8 @@ section.header .name h1, section.header .name h2 {
 }
 
 section.header .name h1 {
-  color: #ff29f5;
+  //color: #e1259e;
+  color: #f7ee00;
   position: relative;
   top: -3px;
 }
@@ -305,7 +306,7 @@ section.header nav ul li, section.subnav nav ul li {
 }
 
 section.header nav ul li:hover, section.subnav nav ul li:hover {
-  color: #ff29f5;
+  color: #e1259e;
 }
 
 section.subnav nav {
@@ -444,7 +445,7 @@ section.subnav nav ul {
     color: #eee;
   }
   section.header nav ul li:hover, section.subnav nav ul li:hover {
-    color: #ff29f5;
+    color: #e1259e;
   }
 }
 
@@ -806,7 +807,7 @@ section.main .container .content .post-item {
 }
 
 a {
-  color: #ff29f5;
+  color: #e1259e;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -833,7 +834,7 @@ img.profile {
 }
 
 .page-heading a {
-  color: #eee;
+  color: #f7ee00;
 }
 section.main .content hr {
   margin: 32px 0;
@@ -924,7 +925,7 @@ section.main .content .markdown pre code {
 }
 
 section.main .content .markdown a code {
-  color: #ff29f5 !important;
+  color: #e1259e !important;
 }
 
 section.main .content .markdown a code:hover {
