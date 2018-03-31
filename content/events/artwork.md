@@ -8,14 +8,22 @@ description = "Find out who contributes to the designs for this year's artwork"
 We believe there’s a cross-over between hackers and artists and for that reason we try to engage with local artists to develop cool shirts and signs.
 ## 2018
 
-T-shirt Design: TBA
+T-shirt Design:  [Mike Turzanski](http://www.miketurzanski.com/)
+
 Poster Design: TBA
-Badget Design: TBA
+
+![2018 Rosie](/img/artwork/2018-sign-1.png)
+![2018 God Save The Net](/img/artwork/2018-sign-2.png)
+![2018 Berlin Wall](/img/artwork/2018-sign-3.png)
+
+Badge Design: 
+
 Coin Design: TBA
+
 
 ## 2017
 
-T-Shirt Design: [Mike Turkanski](http://www.miketurzanski.com/)
+T-Shirt Design: [Mike Turzanski](http://www.miketurzanski.com/)
 
 TBA
 
